@@ -1,0 +1,52 @@
+TEST RESULTS
+
+Logged In Successfully
+
+Filters Applied Successfully
+
+Filtered Result Count: 7
+
+Location Identifier Results by Page
+-----------------------------------
+
+Page: 1/7
+Test Case 1 Passed! Detailed view pages match. Current: 1 Expected: 1
+
+ Location Identifier is NOT SET as city name is not as expected.
+Current: Rheda-Wiedenbr¸ck | Expected: Bielefeld
+
+Page: 2/7
+Test Case 1 Passed! Detailed view pages match. Current: 2 Expected: 2
+
+ Location Identifier Set To: Bielefeld-AmBahnhof1D-SARGINCANGUNAY
+
+Page: 3/7
+Test Case 1 Passed! Detailed view pages match. Current: 3 Expected: 3
+
+ Location Identifier Set To: Bielefeld-DetmolderStraﬂe338-SARGINCANGUNAY
+
+Page: 4/7
+Test Case 1 Passed! Detailed view pages match. Current: 4 Expected: 4
+
+ Location Identifier Set To: Bielefeld-EckendorferStraﬂe58-SARGINCANGUNAY
+
+Page: 5/7
+Test Case 1 Passed! Detailed view pages match. Current: 5 Expected: 5
+
+ Location Identifier Set To: Bielefeld-Hansestraﬂe1E-SARGINCANGUNAY
+
+Page: 6/7
+Test Case 1 Passed! Detailed view pages match. Current: 6 Expected: 6
+
+ Location Identifier Set To: Bielefeld-ImBrocke43-SARGINCANGUNAY
+
+Page: 7/7
+Test Case 1 Passed! Detailed view pages match. Current: 7 Expected: 7
+
+ Location Identifier Set To: Bielefeld-Jahnplatz6-SARGINCANGUNAY
+
+Total Location Detail Page Count: 7
+Actual Location Detail Page Count: 7
+
+Test Case 2 PASSED. Locations presented in location edit view are equal to filtered results count.
+
