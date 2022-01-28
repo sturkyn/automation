@@ -61,8 +61,7 @@ public class TrialAccountStepDefinitions {
 		String pnumber = fakeValuesService.bothify("+############");
 		String pword = fakeValuesService.bothify("+#??###???##???##");
 
-		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
-		driver.findElement(By.xpath("//*[@id='firstName']")).click();
+		driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//*[@id='firstName']")).sendKeys(name);
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         driver.findElement(By.xpath("//*[@id='lastName']")).sendKeys(ulastname);
